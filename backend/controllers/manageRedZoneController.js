@@ -1,6 +1,6 @@
 // backend/controllers/manageRedZoneController.js
-const mongoose = require('mongoose');
-const Incident = mongoose.model('Incident');
+
+const Incident = require('../models/Incident'); // ✅ Correct model import
 
 // Radius in meters to group incidents
 const DANGER_RADIUS_METERS = 200;
@@ -57,7 +57,7 @@ async function getRedZones(req, res) {
           if (dist <= DANGER_RADIUS_METERS) count++;
         }
 
-        if (count >= 2) { // Only mark as red zone if 2 or more incidents in close area
+        if (count >= 2) {
           redZones.push({
             latitude,
             longitude,

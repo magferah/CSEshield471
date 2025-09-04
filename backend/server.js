@@ -20,8 +20,12 @@ mongoose.connect(process.env.MONGODB_URI)
 console.log('=== DEBUGGING ROUTE IMPORTS ===');
 const authRoutes = require('./routes/authRoutes');
 const emergencyRoutes = require('./routes/emergencyRoutes');
+const trustedContactsRouter = require('./routes/trustedContacts');
+
 const liveLocationRoutes = require('./routes/LiveLocationRoutes');
 const redZoneRoutes = require('./routes/redZoneRoutes');
+// server.js or app.js
+require('./models/Incident');
 
 
 
@@ -36,6 +40,7 @@ console.log('=== END DEBUG ===');
 // Then use the variables
 app.use('/api/auth', authRoutes);
 app.use('/api/emergency', emergencyRoutes);
+app.use('/api/trustedContacts', trustedContactsRouter);
 app.use('/api/live', liveLocationRoutes);
 app.use('/api/redzones', redZoneRoutes);
 
