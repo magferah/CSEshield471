@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Shield471",
+    "slug": "Shield471",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "shield471",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "android": {
+    "adaptiveIcon": {
+    "foregroundImage": "./assets/images/adaptive-icon.png",
+    "backgroundColor": "#ffffff"
+  },
+  "edgeToEdgeEnabled": true,
+  "package": "com.anonymous.Shield471",
+  "permissions": [
+    "ACCESS_COARSE_LOCATION",
+    "ACCESS_FINE_LOCATION",
+    "ACCESS_BACKGROUND_LOCATION",
+    "INTERNET",
+    "READ_EXTERNAL_STORAGE",
+    "WRITE_EXTERNAL_STORAGE",
+    "VIBRATE",
+    "SYSTEM_ALERT_WINDOW"
+  ],
+  "config": {
+    "googleMaps": {
+      "apiKey": "AIzaSyBWPP8z6XhSFEQ5rWU03SrzeLDIR4yIAYU"
+    }
+  }},
+
+"web": {
+      "bundler": "metro",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Shield to use your location for emergency services."
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "extraMavenRepos": ["https://mapbox.bintray.com/mapbox"]
+          }
+        }
+      ]
+    ]
+  }
+}
