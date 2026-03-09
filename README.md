@@ -1,12 +1,39 @@
 # SHIELD ( a group project of 3)
 An sos app developed to help and guide the women of BD, when they are in emergency situation. This app is built using REACT native CLI, Expo CLI, Javascript, Typescript, MongoDB and other essential APIs and libraries.
-## The features we aimed 
-We worked in three module. Each module aims to build minimum three main features. During the process, many features were successfully imolemented, some faced issues. The proposed features are- 
-- an sos button, when pressed an alert message will go to all saved contact lists of the user. Those people need to have this app to be saved as a contact no , in the list of user.
-- upon receiving the message, there will be second message - Will you volunteer?, if anoyone confirms, that respond also is sent to the user. So there is dynamic interaction among the users.
-- if anyone do not want to press the sos button, but needs help, as she faced some awkward or dangerous situation, there is a guideline feature which will give guidlines like 'what you have to do next' type. We primarily gave the characteristics of three to four such circumstance which bangladeshi women face a lot. it can be further enhanced by integrating machine learning or chatbot (trained with related datas).
-- There will be red zone alert system in the google map, so that when the user eneters that area, an alert message will be sent to the user, and is user wants, she can share her current location with the app. so the location tracking can be on and off. when sos button is pressed it triggers this tracking feature automatically. otherwise it will be off by default.
-- Admin can manage, add/delet users account, can mark red zone in the google map, based on the feedback and response they get from the users.
-- There is a library, which contains some basic laws related to women harrasement, some basic defense tools name which user can carry, some defense posture/ martial techniques description - which can be crucial in the emergency.
-- Further app will keep a hospital, police station's list for each area, so that when user requests its nearby safe place or police station, it can show those lists.
- 
+## 🛡️The features we aimed 
+The app is organized into 3 modules, each targeting key aspects of women's safety.
+
+📍 Module 1 — Emergency Response
+|Feature |Description|
+|--------|-----------|
+|SOS Button| One-tap alert sent to all saved contacts (contacts must have the app installed)|
+|--------|-----------|
+|Volunteer Response| Contacts receive a "Will you volunteer?" prompt; their confirmation is relayed back to the userAuto Location SharingPressing SOS automatically enables live location tracking; off by default otherwise|
+
+📚 Module 2 — Guidance & Resources
+|Feature |Description|
+|--------|-----------|
+|Situation Guidelines| if anyone do not want to press the sos button, but needs help, as she faced some awkward or dangerous situation, this feature will give guidlines like 'what you have to do next' type. We primarily gave the characteristics of three to four such circumstance which bangladeshi women face a lot. Based on it some guidelines like call nearby policestations, or slip into nearby crowded places (supposedly marked in map) or visit our library and check that section etc| 
+|--------|-----------|
+|Safety Library| Curated content on relevant laws, self-defense tools, and basic martial techniques|
+
+🗺️ Module 3 — Situational Awareness & Navigation
+|Feature |Description|
+|--------|-----------|
+|Red Zone Map Alerts| Google Maps integration highlights danger zones; user receives an alert upon entering a marked area
+|--------|-----------|
+|Location Tracking| ToggleUser can manually turn location sharing on/off at any timeNearby Safe PlacesShows nearest hospitals and police stations based on current location|
+
+##🔧 Admin Panel
+-Manage user accounts (add / delete)
+-Mark and update red zones on the map based on user reports and feedback
+-Mark the nearby crowded palces like- nearby hospitals, shopping places for most of the area (it will be dynamic based on user's live location information)
+
+#⚠️  Limitations and Failures we faced
+
+Some planned features could not be implemented due to an external constraint — Google Maps Platform API access.
+Google Maps Platform requires a valid billing account with an internationally accepted credit/debit card. Without billing enabled, API access is limited to 1 request/day — effectively unusable. As student developers based in Bangladesh, we did not have access to an internationally chargeable card accepted by Google Cloud. This was a payment infrastructure limitation, not a technical one.
+
+The following features were blocked as a result:
+-FeatureStatusReasonReal-time Navigation❌ Not implementedRequires full Google Maps API accessDynamic Red Zone Updates❌ Not implementedAdmin map-editing features depend on the same API
+-
