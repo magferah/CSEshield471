@@ -21,20 +21,22 @@ The app is organized into 3 modules, each targeting key aspects of women's safet
 |Red Zone Map Alerts| Google Maps integration highlights danger zones; user receives an alert upon entering a marked area
 |Location Tracking| ToggleUser can manually turn location sharing on/off at any timeNearby Safe PlacesShows nearest hospitals and police stations based on current location|
 
-##🔧 Admin Panel
--Manage user accounts (add / delete)
--Mark and update red zones on the map based on user reports and feedback
--Mark the nearby crowded palces like- nearby hospitals, shopping places for most of the area (it will be dynamic based on user's live location information)
+## 🔧 Admin Panel
+- Manage user accounts (add / delete)
+- Mark and update red zones on the map based on user reports and feedback
+- Mark the nearby crowded palces like- nearby hospitals, shopping places for most of the area (it will be dynamic based on user's live location information)
 
-#⚠️  Limitations and Failures we faced
+# ⚠️  Limitations and Failures we faced
 
 Some planned features could not be implemented due to an external constraint — Google Maps Platform API access.
 Google Maps Platform requires a valid billing account with an internationally accepted credit/debit card. Without billing enabled, API access is limited to 1 request/day — effectively unusable. As student developers based in Bangladesh, we did not have access to an internationally chargeable card accepted by Google Cloud. This was a payment infrastructure limitation, not a technical one.
 
-The following features were blocked as a result:
--FeatureStatusReasonReal-time Navigation❌ Not implementedRequires full Google Maps API accessDynamic Red Zone Updates❌ Not implementedAdmin map-editing features depend on the same API
--
-##Future Scopes
-- We Can Integrate AI chatbots in in Guidance system, also train the LLM with all possible scenerios, with all possible guidelines, and with all information like the lists of nearby police stations, neaby hospitals, policestations hotlines, nearby mosques and shopping malls etc
-- Enhance the library section further with more updated laws, integration of some trustable, verifies online pages selling self-protection tools etc
+# The following features were blocked as a result:
+- FeatureStatusReasonReal-time Navigation❌ Not implemented
+- Requires full Google Maps API accessDynamic Red Zone Updates❌ Not implemented as Admin map-editing features depend on the same API
+
+## Future Scopes
+|---------------|
+|We Can Integrate AI chatbots in in Guidance system, also train the LLM with all possible scenerios, with all possible guidelines, and with all information like the lists of nearby police stations, neaby hospitals, policestations hotlines, nearby mosques and shopping malls etc|
+|Enhance the library section further with more updated laws, integration of some trustable, verifies online pages selling self-protection tools etc|
   
