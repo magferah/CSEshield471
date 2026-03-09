@@ -5,16 +5,19 @@ The app is organized into 3 modules, each targeting key aspects of women's safet
 
 📍 Module 1 — Emergency Response
 |Feature |Description|
+|--------|-----------|
 |SOS Button| One-tap alert sent to all saved contacts (contacts must have the app installed)|
 |Volunteer Response| Contacts receive a "Will you volunteer?" prompt; their confirmation is relayed back to the userAuto Location SharingPressing SOS automatically enables live location tracking; off by default otherwise|
 
 📚 Module 2 — Guidance & Resources
 |Feature |Description|
+|--------|-----------|
 |Situation Guidelines| if anyone do not want to press the sos button, but needs help, as she faced some awkward or dangerous situation, this feature will give guidlines like 'what you have to do next' type. We primarily gave the characteristics of three to four such circumstance which bangladeshi women face a lot. Based on it some guidelines like call nearby policestations, or slip into nearby crowded places (supposedly marked in map) or visit our library and check that section etc| 
 |Safety Library| Curated content on relevant laws, self-defense tools, and basic martial techniques|
 
 🗺️ Module 3 — Situational Awareness & Navigation
 |Feature |Description|
+|--------|-----------|
 |Red Zone Map Alerts| Google Maps integration highlights danger zones; user receives an alert upon entering a marked area
 |Location Tracking| ToggleUser can manually turn location sharing on/off at any timeNearby Safe PlacesShows nearest hospitals and police stations based on current location|
 
