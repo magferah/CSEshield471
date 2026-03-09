@@ -35,8 +35,7 @@ Google Maps Platform requires a valid billing account with an internationally ac
 - FeatureStatusReasonReal-time Navigation❌ Not implemented
 - Requires full Google Maps API accessDynamic Red Zone Updates❌ Not implemented as Admin map-editing features depend on the same API
 
-## Future Scopes
-|---------------|
-|We Can Integrate AI chatbots in in Guidance system, also train the LLM with all possible scenerios, with all possible guidelines, and with all information like the lists of nearby police stations, neaby hospitals, policestations hotlines, nearby mosques and shopping malls etc|
-|Enhance the library section further with more updated laws, integration of some trustable, verifies online pages selling self-protection tools etc|
+## ✨Future Scopes
+- We Can Integrate AI chatbots in in Guidance system, also train the LLM with all possible scenerios, with all possible guidelines, and with all information like the lists of nearby police stations, neaby hospitals, policestations hotlines, nearby mosques and shopping malls etc.
+- Enhance the library section further with more updated laws, integration of some trustable, verifies online pages selling self-protection tools etc.
   
