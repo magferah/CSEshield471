@@ -5,23 +5,17 @@ The app is organized into 3 modules, each targeting key aspects of women's safet
 
 📍 Module 1 — Emergency Response
 |Feature |Description|
-|--------|-----------|
 |SOS Button| One-tap alert sent to all saved contacts (contacts must have the app installed)|
-|--------|-----------|
 |Volunteer Response| Contacts receive a "Will you volunteer?" prompt; their confirmation is relayed back to the userAuto Location SharingPressing SOS automatically enables live location tracking; off by default otherwise|
 
 📚 Module 2 — Guidance & Resources
 |Feature |Description|
-|--------|-----------|
 |Situation Guidelines| if anyone do not want to press the sos button, but needs help, as she faced some awkward or dangerous situation, this feature will give guidlines like 'what you have to do next' type. We primarily gave the characteristics of three to four such circumstance which bangladeshi women face a lot. Based on it some guidelines like call nearby policestations, or slip into nearby crowded places (supposedly marked in map) or visit our library and check that section etc| 
-|--------|-----------|
 |Safety Library| Curated content on relevant laws, self-defense tools, and basic martial techniques|
 
 🗺️ Module 3 — Situational Awareness & Navigation
 |Feature |Description|
-|--------|-----------|
 |Red Zone Map Alerts| Google Maps integration highlights danger zones; user receives an alert upon entering a marked area
-|--------|-----------|
 |Location Tracking| ToggleUser can manually turn location sharing on/off at any timeNearby Safe PlacesShows nearest hospitals and police stations based on current location|
 
 ##🔧 Admin Panel
@@ -37,3 +31,7 @@ Google Maps Platform requires a valid billing account with an internationally ac
 The following features were blocked as a result:
 -FeatureStatusReasonReal-time Navigation❌ Not implementedRequires full Google Maps API accessDynamic Red Zone Updates❌ Not implementedAdmin map-editing features depend on the same API
 -
+##Future Scopes
+- We Can Integrate AI chatbots in in Guidance system, also train the LLM with all possible scenerios, with all possible guidelines, and with all information like the lists of nearby police stations, neaby hospitals, policestations hotlines, nearby mosques and shopping malls etc
+- Enhance the library section further with more updated laws, integration of some trustable, verifies online pages selling self-protection tools etc
+  
